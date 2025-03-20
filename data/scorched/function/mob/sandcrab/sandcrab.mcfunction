@@ -3,7 +3,7 @@
 
 
 effect give @s invisibility 999999 1 true
-execute if entity @p[distance=..32] if predicate scorched:chance/1_percent run playsound minecraft:entity.silverfish.ambient neutral @a[distance=..20] ~ ~ ~ .4 2
+execute if entity @p[distance=..32] if predicate scorched:chance/1_percent run playsound minecraft:entity.axolotl.idle_air neutral @a[distance=..20] ~ ~ ~ .4 2
 
 #death
 execute store result score @s scorched_health run data get entity @s Health

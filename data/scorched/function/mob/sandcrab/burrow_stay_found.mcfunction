@@ -6,8 +6,8 @@ execute if score @s scorched_count2 matches 06..10 at @s run tp @s ^ ^ ^.045
 
 execute if score @s scorched_count2 matches 01..05 at @s run tp @s ~ ~.3 ~
 execute if score @s scorched_count2 matches 01 run playsound entity.allay.ambient_with_item neutral @a[distance=..20] ~ ~ ~ .25 2
-execute if score @s scorched_count2 matches 01 run playsound entity.silverfish.ambient neutral @a[distance=..20] ~ ~ ~ .5 1.5
-execute if score @s scorched_count2 matches 01 run playsound entity.silverfish.ambient neutral @a[distance=..20] ~ ~ ~ .5 2
+execute if score @s scorched_count2 matches 01 run playsound entity.axolotl.idle_air neutral @a[distance=..20] ~ ~ ~ .5 1.5
+execute if score @s scorched_count2 matches 01 run playsound entity.axolotl.idle_air neutral @a[distance=..20] ~ ~ ~ .5 2
 execute if score @s scorched_count2 matches 06..10 at @s run tp @s ~ ~.15 ~
 execute if score @s scorched_count2 matches 11 at @s run tp @s ~ ~.0 ~
 
