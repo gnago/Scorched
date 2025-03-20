@@ -1,0 +1,34 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 999
+    },
+    "description": [
+      {
+        "translate": "Desert/Badlands Additions",
+        "color": "#ffb62e"
+      },
+      {
+        "translate": "\n"
+      },
+      {
+        "translate": "Version v1.1.4b - MC 1.21.2-4",
+        "color": "#898f96"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1.20.4",
+        "formats": {
+          "max_inclusive": 9999,
+          "min_inclusive": 61
+        }
+      }
+    ]
+}
+  
+}
