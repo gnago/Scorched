@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "Jomathy Department of Information\n-------------------Marsha Dunes\n===================\n\nOne fateful day in Cape Cactus, two hopeful villagers decided to move to the capital of the empire they had recently become a part of. The villagers had heard"
+                },
+                {
+                  "raw": "good things about Jomathy Towers; although, they knew they would be the first villagers to move there ever.\n\n After arduous days of travel by boat, they arrived in Jomathy Towers. They were awestruck by the scale of city, never having seen"
+                },
+                {
+                  "raw": "buildings taller than two floors. They rented a small apartment in the Jomathy Skytower on Route 2, and started a family there. Their first child, Cotta, was fascinated by the tale of the far off lands from which their parents originated. He got a job at The Second Wheat Tower"
+                },
+                {
+                  "raw": "working long hours, providing for the family.\n\n The couple ended up having another kid, Mesan. Mesan wasn't for the hustle and bustle of city life; rather, he preferred a simpler life as his parents once lived. He decided he'd move out to the suburbs of "
+                },
+                {
+                  "raw": "Rainy Shores and become a fisherman. He still visits his family frequently, and even brings his fishing boat to the Bay of Jainth Bones.\n\n Months later, their third and final child was born. However, something was different about this child. She dressed "
+                },
+                {
+                  "raw": "differently than her siblings, she acted strangely, she seemed more in touch with the natural environment. They decided to name her Marsha, as they thought it would be fitting of the environment which she grew to love. Marsha was the first villager to adapt to Jomathy Towers culture in a"
+                },
+                {
+                  "raw": "meaningful way. Marsha took on a job at the Library of Jomathy as the librarian. She loved working there, seeing players visiting Jomathy Towers, looking for resources, and seeking information. She felt as though she belonged here, like she was meant to"
+                },
+                {
+                  "raw": "end up here. Marsha Dunes became a beacon of hope to future Cape Cactus immigrants, inspiring them to find their place in this new land of opportunities "
+                },
+                {
+                  "raw": "-------------------\n\n\n\n\n         v1h4n\n      Jomathy DOI\n     30 April 2024\n  Long Live Jomathy\n\n\n\n\n-------------------"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

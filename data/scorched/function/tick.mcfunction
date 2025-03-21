@@ -10,6 +10,7 @@ execute if score 4tick scorched_clock matches 4.. run function scorched:clocks/4
 
 #mobs
 execute as @e[type=marker,tag=scorched_sandcrab_needs_init] at @s run function scorched:mob/sandcrab/initialize
+execute as @e[type=zombie,tag=scorched_sandcrab,tag=scorched_sandcrab_satisfied] at @s run function scorched:mob/sandcrab/satisfied
 execute as @e[type=zombie,tag=scorched_sandcrab,tag=scorched_sandcrab_found] at @s if entity @p[distance=..64] run function scorched:mob/sandcrab/sandcrab
 execute as @e[type=zombie,tag=scorched_sandcrab,tag=!scorched_sandcrab_found] at @s run function scorched:mob/sandcrab/burrow_stay
 
