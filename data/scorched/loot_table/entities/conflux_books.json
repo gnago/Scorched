@@ -6,8 +6,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
-          "weight": 2,
+          "weight": 5,
           "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Marsha Dunes",
+              "author": "v1h4n",
+              "generation": 1
+            },
             {
               "function": "minecraft:set_written_book_pages",
               "pages": [
@@ -40,14 +46,125 @@
                 }
               ],
               "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "The Big Oops",
+              "author": "v1h4n",
+              "generation": 2
             },
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "§4Jomathy Department of Information§r\n-------------------\n§lThe Big Oops§r\n===================\n\nThe Big Oops was a devastating accident that took place on the 20th of August 2023. \n\n It was a normal day on the Conflux. TryingMyBest was"
+                },
+                {
+                  "raw": "designing the new town hall for the City of Ptexas in the creative server.\n Crystaly3, v1h4n, and Gnago were on the server at the time, helping draft the design for the building. Inevitably, some of the members began to wander off and mess around.\n"
+                },
+                {
+                  "raw": "V1h4n built a TNT cannon, as in the creative server the TNT would fly through the air, flashing and pulsing yet never blowing up. As the group became disinterested with the TNT cannon, v1h4n started destroying it; consequently, TNT from the dispensers piled onto the ground."
+                },
+                {
+                  "raw": "As v1h4n started to clear the items traditionally, by picking them up and clearing the creative inventory, TryingMyBest believed it would be more efficient to kill all the dropped items on the ground with commands as an operator. At that moment this treacherous command"
+                },
+                {
+                  "raw": "was executed, \"kill @e.\" This command kills all entities rather than only killing dropped items - “kill @e[type=item].” \n In less than a second, every member online the server had died: TryingMyBest, v1h4n, Gnago, crystaly3, and importantly, Bloo - who \n"
+                },
+                {
+                  "raw": "was playing on the survival server. Initially, TryingMyBest chuckled an apology for everyone in creative dying, until he noticed Bloo died.\n At this moment he realized his command had affected both servers. In a swift panic, everyone quickly rushed to \n"
+                },
+                {
+                  "raw": "survival to check for damage. When v1h4n teleported to survival, he was relieved to find none of the entities in Jomathy Towers dead. Although, when crystaly3 and Gnago went to survival, they were frightened that every entity in sight was gone.\n"
+                },
+                {
+                  "raw": " Upon sharing this information they figured out that only entities in the loaded chunks had died, including the spawn chunks, and the chunk Bloo was in. TryingMyBest and the other members began to assess the damage. Entities in the Town Hall, iron farm, and up until Bubble Mountain"
+                },
+                {
+                  "raw": "were killed. TryingMyBest determined a server backup would need to be installed. Gnago assured the group that backups were fairly frequent and that little progress would be lost. \nAt the sound of this news, the members of the server started to\n"
+                },
+                {
+                  "raw": "get ideas. If the server would be restored from a backup anyway, nothing they did now mattered. Despite the fact that this line of thought was flawed for several reasons, they started to grief.\nFirst, Jomathy Towers fell. The Bank of Jomathy was set\n"
+                },
+                {
+                  "raw": "ablaze by crystaly3 and Gnago. While Bloo wandered around the chaotic mess, TryingMyBest frantically panicked - saving schematics and contacting the server owner. Next, the courthouse was ignited. Jomathy Towers was plunged into a state of chaos. It felt as though Kyle "
+                },
+                {
+                  "raw": "planted seeds of violence in the minds of the people. V1h4n frantically sprinted across the city killing any misbehaving delinquents, although it didn't work. The Influence of Jomathy Tower was flooded with lava, and the historical Jomath Tower was trapped with TNT. Jomathy"
+                },
+                {
+                  "raw": "Towers was left in ruins.\n To get revenge for the destruction of Jomathy Towers, v1h4n traveled to My House, the humble abode of Gnago. Upon arrival he filled it with TNT from top to bottom. All that was left of Gnago's house was a simple crater. \n"
+                },
+                {
+                  "raw": " Hellhound's base, the Bedrock Bastion, was destroyed in an attempt to get Hellhound to join the server. Hellhound was asleep at the time, never logging on.\n The players ran rampant with destruction, they laid their eyes upon the Town Hall. Lines of\n"
+                },
+                {
+                  "raw": "TNT intricately woven throughout the Town Hall. All that was left was a crater in the shape of the building, filled with the rubble of the demolished structure. \n With the flame of ruination burning strong, the group set their sights on Ptexas.\nTryingMyBest used\n"
+                },
+                {
+                  "raw": "World Edit to replace every dark prismarine block with TNT. In addition, the group manually placed TNT to ensure full destructive coverage. The first explosion set off a spectacular chain reaction. The server was brought to its knees, hundreds of explosions dotted the Ptexas basin. Upon"
+                },
+                {
+                  "raw": "remapping Ptexas, the hitherto aqua circle was nothing more than a gray blob. TryingMyBest - trying to teleport someone, made the same mistake of executing the command with the subject, “@e,” teleporting all entities in the server to the ruined city. Laughter consumed the group"
+                },
+                {
+                  "raw": "as they processed the hilarity of the same horrible mistake happening once more. Following this, Bamboodos was blown to smithereens. Indeed, the once beautiful tropical island was reduced to a shadow of its former self by its very creator. \n\n"
+                },
+                {
+                  "raw": "Finally, the last target was the coliseum. The group - now masters in the art of annihilation - used all their accrued techniques on the great monument: fully automatic TNT cannons, carpet bombers, wardens, and withers. As a result, a massive chasm formed within the walls of the\n"
+                },
+                {
+                  "raw": "structure. \n The next morning, the group had realized the gravity of their sleep deprived actions. What would happen if anyone logged on - the distraught confusion that would ensue? What if there wasn’t a backup, and if there was, how long ago was \n"
+                },
+                {
+                  "raw": "it? The question arose, was the impact of the original command great enough to justify the widespread destruction of the server?\nIt took server administrators nearly a week to restore the server. Some builds had to be manually\n"
+                },
+                {
+                  "raw": "reconstructed or pasted in by TryingMyBest. All Big Oops participants were deeply regretful at what they had done, and the stress they caused everyone. After the ordeal, TryingMyBest renounced the title of operator, and the server continued as normal."
+                },
+                {
+                  "raw": "-------------------\n\n\n\n         v1h4n\n      Jomathy HQ\n    31 March 2024\n   Long Live Jomathy\n\n\n\n\n\n-------------------"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Cape Cactus",
+              "author": "v1h4n",
+              "generation": 1
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "Jomathy Department of Foreign Exploration\n-------------------\nCape Cactus\n===================\nCape Cactus is a colony far south of Jomathy Towers. Located in a desert on the edge of a mesa biome, the colony exports primarily sand and terracotta. The colony is home to"
+                },
+                {
+                  "raw": "a large villager population that has grown significantly ever since the village has been placed under Jomathian Rule. Housing projects and farm expansions aid in the growth of the once quaint village. Jomathy Towers hopes to continue investing in the people of Cape Cactus. To get to the"
+                },
+                {
+                  "raw": "colony, you can make use of the Gnetherways; signage can be found posted on the nether-roof side of Confluence Station."
+                },
+                {
+                  "raw": "-------------------\n\n\n\n          v1h4n\n  Cape Cactus Colony\n       Managment \n  24 February 2024\n  Long Live Jomathy!\n\n\n\n\n-------------------"
+                }
+              ],
+              "mode": "append"
             }
           ]
         }

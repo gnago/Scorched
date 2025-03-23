@@ -107,7 +107,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "weight": 9,
+              "weight": 13,
               "value": "scorched:entities/sandcrab_common"
             },
             {
@@ -128,7 +128,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:quartz",
-              "weight": 9,
+              "weight": 10,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -143,7 +143,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:emerald",
-              "weight": 3,
+              "weight": 6,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -158,7 +158,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:experience_bottle",
-              "weight": 6,
+              "weight": 8,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -177,7 +177,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "weight": 25,
+              "weight": 15,
               "value": "scorched:entities/conflux_books"
             },
             {
@@ -366,7 +366,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:cocoa_beans",
-              "weight": 15,
+              "weight": 14,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -381,7 +381,22 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:rabbit_foot",
-              "weight": 15,
+              "weight": 13,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:phantom_membrane",
+              "weight": 5,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -450,7 +465,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:kelp",
-              "weight": 20,
+              "weight": 12,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -480,7 +495,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:prismarine_shard",
-              "weight": 16,
+              "weight": 15,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -495,7 +510,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:prismarine_crystals",
-              "weight": 8,
+              "weight": 10,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -503,6 +518,21 @@
                     "type": "minecraft:uniform",
                     "min": 2,
                     "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pointed_dripstone",
+              "weight": 7,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 6
                   }
                 }
               ]
