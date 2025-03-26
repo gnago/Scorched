@@ -17,6 +17,10 @@
       {
         "feature": "scorched:tree/oak_decaying_2",
         "placement": []
+      },
+      {
+        "feature": "minecraft:acacia",
+        "placement": []
       }
     ]
   }
