@@ -201,13 +201,13 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "weight": 8,
+              "weight": 7,
               "value": "scorched:entities/sandcrab_common"
             },
             {
               "type": "minecraft:item",
               "name": "minecraft:bone",
-              "weight": 20,
+              "weight": 19,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -237,7 +237,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:porkchop",
-              "weight": 21,
+              "weight": 15,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -267,7 +267,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:ender_pearl",
-              "weight": 12,
+              "weight": 10,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -275,6 +275,36 @@
                     "type": "minecraft:uniform",
                     "min": 2,
                     "max": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:warped_nylium",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:crimson_nylium",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 1
                   }
                 }
               ]
@@ -395,7 +425,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:phantom_membrane",
+              "name": "minecraft:melon_slice",
               "weight": 5,
               "functions": [
                 {
@@ -403,7 +433,7 @@
                   "count": {
                     "type": "minecraft:uniform",
                     "min": 1,
-                    "max": 2
+                    "max": 7
                   }
                 }
               ]
@@ -495,7 +525,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:prismarine_shard",
-              "weight": 15,
+              "weight": 20,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -510,7 +540,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:prismarine_crystals",
-              "weight": 10,
+              "weight": 11,
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -524,23 +554,8 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:pointed_dripstone",
-              "weight": 7,
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 1,
-                    "max": 6
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
               "name": "minecraft:nautilus_shell",
-              "weight": 5,
+              "weight": 6,
               "functions": [
                 {
                   "function": "minecraft:set_count",
