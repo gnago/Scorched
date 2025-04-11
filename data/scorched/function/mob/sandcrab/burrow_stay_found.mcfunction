@@ -11,7 +11,7 @@ execute if score @s scorched_count2 matches 01 run playsound entity.axolotl.idle
 execute if score @s scorched_count2 matches 06..10 at @s run tp @s ~ ~.15 ~
 execute if score @s scorched_count2 matches 11 at @s run tp @s ~ ~.0 ~
 
-execute if score @s scorched_count2 matches 11 at @s run loot spawn ~ ~ ~ loot scorched:entities/sandcrab
+execute if score @s scorched_count2 matches 11 at @s run loot spawn ~ ~ ~ loot scorched:entities/sandcrab_common
 #execute if score @s scorched_count2 matches 11 at @s run data modify entity @e[limit=1,sort=nearest,distance=..0.0001,type=item] Motion[1] set value 0.5
 execute if score @s scorched_count2 matches 11 at @s run playsound entity.item.pickup neutral @a[distance=..20] ~ ~ ~ 1
 
@@ -19,7 +19,7 @@ execute if score @s scorched_count2 matches 13 at @s run loot spawn ~ ~ ~ loot s
 #execute if score @s scorched_count2 matches 13 at @s run data modify entity @e[limit=1,sort=nearest,distance=..0.0001,type=item] Motion[1] set value 0.5
 execute if score @s scorched_count2 matches 13 at @s run playsound entity.item.pickup neutral @a[distance=..20] ~ ~ ~ 1
 
-execute if score @s scorched_count2 matches 15 at @s run loot spawn ~ ~ ~ loot scorched:entities/sandcrab
+execute if score @s scorched_count2 matches 15 at @s run loot spawn ~ ~ ~ loot scorched:entities/sandcrab_common
 #execute if score @s scorched_count2 matches 15 at @s run data modify entity @e[limit=1,sort=nearest,distance=..0.0001,type=item] Motion[1] set value 0.5
 execute if score @s scorched_count2 matches 15 at @s run playsound entity.item.pickup neutral @a[distance=..20] ~ ~ ~ 1
 
